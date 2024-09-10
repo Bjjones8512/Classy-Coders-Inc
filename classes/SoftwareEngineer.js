@@ -8,7 +8,7 @@ class SoftwareEngineer extends Employees {
         this.#programmingLanguges = programmingLanguges
     }
 
-    getProgrammingLanguges() {
+    getProgrammingLanguages(){
         return this.#programmingLanguges
     }
 
