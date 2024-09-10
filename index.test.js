@@ -46,7 +46,7 @@ describe("Manager tests", () => {
 
 describe("Software Engineer Tests", () => {
     const programmer = new SoftwareEngineer("Becca", "Senior Software Engineer", 100000, ["JavaScript", "Java", "Python"]);
-    
+
     test("Can create instance of SoftwareEngineer that is a subclass of Employees", () => {
         expect(programmer instanceof Employees).toBe(true)
         expect(programmer instanceof SoftwareEngineer).toBe(true)
@@ -57,7 +57,7 @@ describe("Software Engineer Tests", () => {
     })
 
     test("Can update programmingLanguages", () => {
-        programmer.setProgrammingLanguages("C#"); 
+        programmer.setProgrammingLanguages("C#");
         expect(programmer.getProgrammingLanguages()).toEqual (["JavaScript", "Java", "Python", "C#"]);
     })
 })
