@@ -1,3 +1,5 @@
+const {Employees} = require('./Employees')
+
 class SoftwareEngineer extends Employees {
     #programmingLanguges
 

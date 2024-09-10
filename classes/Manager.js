@@ -1,9 +1,9 @@
-const Employees = require('./Employees')
+const {Employees} = require('./Employees')
 
 class Manager extends Employees{
     #employeesManaged
     constructor(name, position, salary, department) {
-        super(name, position, salary, department)
+        super(name, position, salary)
         this.department = department;
         this.#employeesManaged = [];
     }
