@@ -9,7 +9,8 @@ class Employees {
     isHired = true;
     this.#isHired = isHired;
     Employees.allEmployees.push(this);
-  }
+  }//test
+
   getSalary() {
     console.log(this.#salary);
     return this.#salary;
