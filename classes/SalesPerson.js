@@ -21,6 +21,4 @@ class SalesPerson extends Employees {
     }
 }
 
-module.exports = {
-    SalesPerson,
-}
+module.exports = SalesPerson;
